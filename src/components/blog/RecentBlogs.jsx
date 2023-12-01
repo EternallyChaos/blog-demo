@@ -25,21 +25,20 @@ const RecentBlogs = ({ recentBlogs }) => {
                 className="h-56 w-full object-cover object-center transition-all duration-150 hover:scale-105"
               />
               <div className="flex-auto px-6 py-5">
-                <span className="mb-2 flex items-center text-sm font-semibold">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="mr-1 h-4 w-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
-                    />
-                  </svg>
+                <span
+                  className="
+       bg-blue-600
+       rounded
+       inline-block
+       text-center
+       py-1
+       px-4
+       text-base
+       leading-loose
+       font-semibold
+       text-white
+       "
+                >
                   {blog.mainTag}
                 </span>
                 <Link
